@@ -1,0 +1,88 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "paper"
+%%% End:
+
+\section{Introduction}
+\label{sec:intro}
+
+The goal of this project is to develop a Ball and Plate balancing control
+system.
+
+The ball and plate system consists of a ball on a plate, capable of being
+tilted along each of two horizontal axis of the plate itself.
+The plate, initially horizontal, is tilted aiming to control the
+position of the ball, so the ball is indirectly controlled.
+%In this scenario, such a position is static.
+
+We designed the balancing control system using a neural
+network based on the reinforcement-learning model, that is 
+the problem faced by an agent that learns behavior
+through trial-and-error interactions with a dynamic environment.
+Such an approach, not making use of a formalized system description 
+as digital control techniques do, programs agents by reward and
+punishment without needing to specify how such a \emph{task} is to be achieved.
+
+The project consists in two programs, written in C, one for the learning phase,
+(training the neural networks) and the other for the graphical representation
+(using the neural networks) using the \emph{OpenGL} library for a 3D
+simulation.
+
+%The challenge of balancing is a problem under continuous study for
+%applications from robotics to transportation, often extensions of the
+%inverted pendulum project. Therefore, the system can present many challenges
+%and opportunities as an educational tool to university students studying
+%control systems engineering.
+
+%This project adopts a simulated ball-on-plate system model.
+%, implemented using the C language.
+%In order to reproduce the ball-on-plate behaviour in a realistic way,
+%a minimal but effective graphical layout
+% using the Open Graphics Library (OpenGL)
+%has been designed.
+ 
+%Characterizing the ball-on-plate specs is difficult,
+%notably because the desired motion is for an object of the system that is
+%indirectly controlled.
+%The controller can not directly manipulate the ball, and therefore deciding
+%on the specs of the plate controller, in terms of rise time, settling time,
+%and steady-state error is difficult.
+
+%For these reasons, we designed the balancing control system using a neural
+%network based on the reinforcement-learning model, that is 
+%the problem faced by an agent that learns behavior
+%through trial-and-error interactions with a dynamic environment.
+%Such an approach, not making use of a formalized system description 
+%as digital control techniques do, programs agents by reward and
+%punishment without needing to specify how such a \emph{task} is to be achieved.
+
+The rest of the report is organized as follows: Section~\ref{sec:sysmodel}
+introduces a linearized ball and plate model, core of the implemented simulator.
+Section~\ref{sec:k-ase} presents the system architecture together with the
+neural network tuning.
+%reinforcement-learning model used in this
+%project together with the tuning strategies for the neural network parameters.
+Section~\ref{sec:results} proves the effectiveness of our approach, showing
+the results of the neural network training. Section~\ref{sec:impl}
+contains a description of the developed programs and how to use them. 
+Section~\ref{sec:conclusions} ends the report with the concluding remarks.
+
+%As shown, the project needs to be broken into three subprojects: the sensor
+%system, the physical system, and the controller. These three projects will be
+%developed independently by the team, and then integrated into a complete
+%system. The sensor subsystem consists of the circuitry and software that
+%generate coordinates from the touch screen. The physical system refers to the
+%design and machining of parts needed to construct the large yoke and axle, as
+%well as the new motor bracket, which are necessary to bear the weight of the
+%touch screen. The control system includes not only the modelling and simulation
+%of the system as a whole, but additionally, the design of the controllers: one
+%for the ball position and another for the plate angles.
+%One of the major obstacles to integration and implementation is the reading of
+%position coordinates from the touch. A RS-232 serial card is supplied with the
+%touch screen, however, the average position report rate is 80-100
+%positions/second. Another obstacle is the system itself, which is open-loop
+%unstable: the design must take into account not only the dynamics of the two
+%axis plate system, but also the dynamics of the heavy steel ball moving around
+%on the surface of the system.
+

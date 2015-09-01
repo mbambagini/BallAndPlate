@@ -1,0 +1,424 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2011.1.19)  18 JUL 2011 14:16
+entering extended mode
+ %&-line parsing enabled.
+**paper.tex
+(./paper.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+LaTeX Font Info:    Try loading font information for OMX+cmex on input line 76.
+
+
+(/usr/share/texmf-texlive/tex/latex/base/omxcmex.fd
+File: omxcmex.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+) (./algorithm.sty
+\c@algorithm=\count99
+\Blockindent=\skip49
+\algorithmindent=\skip50
+)
+(./algpseudocode.sty
+Package: algpseudocode 
+ (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(./algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count100
+\c@ALG@rem=\count101
+\c@ALG@nested=\count102
+\ALG@tlm=\skip51
+\ALG@thistlm=\skip52
+\c@ALG@Lnr=\count103
+\c@ALG@blocknr=\count104
+\c@ALG@storecount=\count105
+\c@ALG@tmpcounter=\count106
+\ALG@tmplength=\skip53
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texmf-texlive/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2006/08/10 v0.32 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texmf-texlive/tex/generic/pstricks/pstricks.tex
+`PSTricks' v1.15  <2006/12/22> (tvz)
+\pst@dima=\dimen114
+\pst@dimb=\dimen115
+\pst@dimc=\dimen116
+\pst@dimd=\dimen117
+\pst@dimg=\dimen118
+\pst@dimh=\dimen119
+\pst@hbox=\box28
+\pst@boxg=\box29
+\pst@cnta=\count107
+\pst@cntb=\count108
+\pst@cntc=\count109
+\pst@cntd=\count110
+\pst@cntg=\count111
+\pst@cnth=\count112
+\pst@toks=\toks26
+(/usr/share/texmf-texlive/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen120
+\psxunit=\dimen121
+\psyunit=\dimen122
+\pslinewidth=\dimen123
+\pst@customdefs=\toks27
+\pslinearc=\dimen124
+\everypsbox=\toks28
+\psframesep=\dimen125
+\pslabelsep=\dimen126
+\psk@shift=\dimen127
+\pst@shift=\dimen128
+\theoverlaybox=\box30
+)
+File: pstricks.tex 2006/12/22 v1.15 `PSTricks' (tvz)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `override' ignored on input line 216.
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texmf-texlive/tex/latex/pstricks/pst-node.sty
+Package: pst-node 2006/01/01 package wrapper for pst-node.tex
+
+(/usr/share/texmf-texlive/tex/generic/pstricks/pst-node.tex
+ v97 patch 11, 2000/11/09
+\psrow=\count113
+\pscol=\count114
+\psmatrixcnt=\count115
+\psrowsep=\skip54
+\pscolsep=\skip55
+)
+File: pst-node.tex 2000/11/09 97 patch 11 `pst-node' (tvz)
+)
+(/usr/share/texmf-texlive/tex/latex/pstricks-add/pstricks-add.sty
+Package: pstricks-add 2005/03/03 package wrapper for pstricks-add.tex (hv)
+
+(/usr/share/texmf-texlive/tex/generic/pstricks-add/pstricks-add.tex
+(/usr/share/texmf-texlive/tex/generic/pstricks/pst-plot.tex
+ v97 patch 2, 1999/12/12
+(/usr/share/texmf-texlive/tex/generic/multido/multido.tex
+ v1.41, 2004/05/18 <tvz>
+\multido@count=\count116
+\multidocount=\count117
+\multido@stuff=\toks29
+))
+(/usr/share/texmf-texlive/tex/latex/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
+
+(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.tex
+\XKV@toks=\toks30
+\XKV@depth=\count118
+File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
+)))
+`pstricks-add' v2.82, 2006/11/22 (dr,hv)
+\pst@dimm=\dimen129
+\pst@dimn=\dimen130
+\pst@dimo=\dimen131
+\pst@dimp=\dimen132
+\pst@cntm=\count119
+\pst@cntn=\count120
+\pst@cnto=\count121
+\pst@cntp=\count122
+\@zero=\count123
+\pstRadUnit=\dimen133
+\pstRadUnitInv=\dimen134
+\pst@braceWidth=\dimen135
+\pshooklength=\dimen136
+\pshookwidth=\dimen137
+\@digitcounter=\count124
+\psk@subticksize=\dimen138
+\pst@xticksizeA=\dimen139
+\pst@xticksizeB=\dimen140
+\pst@xticksizeC=\dimen141
+\pst@yticksizeA=\dimen142
+\pst@yticksizeB=\dimen143
+\pst@yticksizeC=\dimen144
+\psk@llx=\dimen145
+\psk@lly=\dimen146
+\psk@urx=\dimen147
+\psk@ury=\dimen148
+\pst@xunit=\dimen149
+\pst@yunit=\dimen150
+\linecnt=\count125
+)
+File: pstricks-add.tex 2006/11/22 v2.82 `PSTricks-add' (hv,dr)
+)
+(/usr/share/texmf-texlive/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count126
+\pfg@scount=\count127
+\pfg@temp=\write3
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
+\subfigcaptopadj=\dimen151
+\subfigbottomskip=\skip58
+\subfigcapmargin=\dimen152
+\subfiglabelskip=\skip59
+\c@subfigure=\count128
+\c@lofdepth=\count129
+\c@subtable=\count130
+\c@lotdepth=\count131
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
+)
+\c@theorem=\count132
+\c@lemma=\count133
+\c@definition=\count134
+\c@assumption=\count135
+ (./paper.aux)
+\openout1 = `paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 71.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 124.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 124.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 124.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 124.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 124.
+ (./intro.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+)
+(./sysmodel.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 6.
+File: ./Pictures/physical_model.eps Graphic file (type eps)
+ <./Pictures/physical_model.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 26.
+ [1
+
+]) (./k-ase.tex [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+File: ./Pictures/neural_network.eps Graphic file (type eps)
+
+<./Pictures/neural_network.eps> [3] [4]) (./results.tex
+File: ./Pictures/result.eps Graphic file (type eps)
+
+<./Pictures/result.eps>) (./implementation.tex [5]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 14.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+File: ./Pictures/screenshot.eps Graphic file (type eps)
+
+<./Pictures/screenshot.eps> [6]
+Overfull \hbox (7.15518pt too wide) in paragraph at lines 83--86
+[]\OT1/ptm/m/n/10.95 In or-der to sim-plify the pro-grams in-vo-ca-tions, two s
+cripts are pro-vided: \OT1/ptm/m/it/10.95 trainer.sh
+ []
+
+) (./conclusions.tex [7]) (./howto.tex
+Overfull \hbox (17.94592pt too wide) in paragraph at lines 4--8
+\OT1/ptm/m/n/10.95 This sec-tion briefly de-scribes the pro-ce-dure in or-der t
+o run the trainer and ball[]and[]plate
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+) (./paper.bbl [8]) [9] (./paper.aux) ) 
+Here is how much of TeX's memory you used:
+ 5094 strings out of 95087
+ 62838 string characters out of 1183278
+ 175997 words of memory out of 1500000
+ 8163 multiletter control sequences out of 10000+50000
+ 15045 words of font info for 50 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 37i,10n,51p,281b,417s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on paper.dvi (9 pages, 28044 bytes).

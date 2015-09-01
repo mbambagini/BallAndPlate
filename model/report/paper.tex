@@ -1,0 +1,106 @@
+\documentclass[a4paper,11pt]{article}
+
+% ******************************************************************************
+% * PACKAGES
+% ******************************************************************************
+
+% *** FONT PAcKAGES ***
+%\usepackage{times}
+
+\usepackage{psfrag}
+
+
+% *** MATH PACKAGES ***
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% *** CITATION PACKAGES ***
+\usepackage{cite}
+
+% *** GRAPHICS RELATED PACKAGES ***
+\usepackage[dvips]{graphicx}
+\graphicspath{{./Pictures/}}
+\DeclareGraphicsExtensions{.eps,.pdf,.png,.jpg}
+
+% *** SPECIALIZED LIST PACKAGES ***
+%\usepackage{algorithmic}
+
+% *** ALIGNMENT PACKAGES ***
+%\usepackage{array}
+
+%\usepackage{mdwmath}
+%\usepackage{mdwtab}
+
+%\usepackage{eqparbox}
+
+% *** SUBFIGURE PACKAGES ***
+%\usepackage[tight,footnotesize]{subfigure}
+
+%\usepackage[caption=false]{caption}
+%\usepackage[font=footnotesize]{subfig}
+
+% *** FLOAT PACKAGES ***
+%\usepackage{fixltx2e}
+%\usepackage{stfloats}
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%\usepackage{url}
+% Usage: \url{my_url_here}.
+
+% correct bad hyphenation here
+%\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+% ******************************************************************************
+% * DOCUMENT
+% ******************************************************************************
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Ball\&Plate Model}
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{Mario Bambagini, Marco Di Natale\\
+ReTiS Lab, Scuola Superiore Sant'Anna, Pisa, Italy\\
+\{name.surname\}@sssup.it}
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+
+% make the title area
+\maketitle
+
+\input{introduction}
+
+\input{model}
+
+\input{math}
+
+\input{control}
+
+
+% conference papers do not normally have an appendix
+
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+\bibliographystyle{./styles/IEEEtran}
+\bibliography{paper}
+
+\end{document}
+

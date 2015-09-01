@@ -1,0 +1,12 @@
+set terminal postscript eps enhanced  size 6,3.5 color
+set output "performance.eps"
+unset grid
+set xtics 0,2,24
+set ytics 0,0.02,0.14
+set xlabel "Time (s)" font "Times-Roman, 34" offset -0,-2
+set ylabel "Error (m)" font "Times-Roman, 34" offset -1, -1
+set key top right
+set key spacing 5
+set key font ",30"
+plot "singolo.res" using 1:2 with lines lw 6 title "Deployed system", \
+	 "simulated.csv" using 1:2 with lines lw 6 title "Simulink simulation"

@@ -1,0 +1,53 @@
+
+\section{How to use our tool}
+
+This section briefly describes the procedure in order to run the trainer and
+ball\_and\_plate programs both under UNIX and CYGWIN platforms.
+In the following, for each platform, a list of the needed packages and console
+commands is presented.
+
+\subsection{GNU/Linux}
+
+\textbf{Packages}
+
+\begin{itemize}
+\item freeglut3                                      
+\item freeglut3-dev                                 
+\end{itemize}
+
+\noindent\textbf{Console commands}
+
+\begin{verbatim}
+$ cd Ball_and_Plate_controller
+$ make 
+$ ./trainer -k kohonen.nn -s ase.nn -c ace.nn -r
+or
+$ ./trainer.sh
+$ ./ball_and_plate -k kohonen.nn -s ase.nn -r
+or
+$ ./ball_and_plate.sh
+\end{verbatim}
+
+\subsection{CYGWIN}
+
+\textbf{Packages}
+
+\begin{itemize}
+\item gcc
+\item make
+\item opengl
+\end{itemize}
+
+\noindent\textbf{Console commands}
+
+\begin{verbatim}
+$ cd Ball_and_Plate_controller
+$ make cygwin
+$ ./trainer -k kohonen.nn -s ase.nn -c ace.nn -r
+or
+$ ./trainer.sh
+$ ./ball_and_plate -k kohonen.nn -s ase.nn -r
+or
+$ ./ball_and_plate.sh
+\end{verbatim}
+

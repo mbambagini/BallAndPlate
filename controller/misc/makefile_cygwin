@@ -1,0 +1,32 @@
+PRG_NAME := ball_and_plate_gl
+SRC_DIR  := src
+INC_DIR  := inc
+OBJ_DIR  := obj
+MAIN     := visualizer.c
+
+CC := gcc
+
+CFLAGS += -g -I./$(INC_DIR) -Wall
+LFLAGS += -lm -lopengl32 -lglut32 -lglu32 
+
+SRC_FILES := $(shell ls $(SRC_DIR)/*.c;)
+OBJ_FILES := ${SRC_FILES:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o}
+OBJ_MAIN  := ${MAIN:%.c=$(OBJ_DIR)/%.o}
+
+all: $(OBJ_DIR) $(OBJ_FILES) $(OBJ_MAIN)
+	@$(CC) $(OBJ_FILES) $(OBJ_MAIN) $(LFLAGS) -o $(PRG_NAME)
+	@echo "COMPILATION DONE!"
+
+$(OBJ_DIR)/%.o : ./%.c
+	@$(CC) -c $< $(CFLAGS) -o $@
+
+$(OBJ_DIR)/%.o : $(SRC_DIR)/%.c
+	@$(CC) -c $< $(CFLAGS) -o $@
+
+$(OBJ_DIR):
+	@mkdir $(OBJ_DIR)
+
+clean: 
+	@rm -r $(OBJ_DIR)
+	@rm $(PRG_NAME)
+
